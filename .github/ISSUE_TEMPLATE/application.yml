@@ -1,0 +1,82 @@
+name: Fund application (not open yet)
+description: Applications are not open yet. This template is a draft for when the Wonmor Open Source Fund opens.
+title: "Application: "
+labels: ["application"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Applications are not open yet.** The Wonmor Open Source Fund is planned and depends on Wonmor first becoming a legal entity. No money has been promised to anyone.
+
+        This template shows what we expect to ask, so you can prepare. Questions are welcome on Telegram: [t.me/xnosir](https://t.me/xnosir).
+  - type: input
+    id: project
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Public repository
+      description: Link to the source code.
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence
+      description: The open-source licence the project uses.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it is
+      description: Two or three plain sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: people
+    attributes:
+      label: Who uses it
+      description: Real people who need it today, and how you hear from them. (Criterion —for people we know.)
+    validations:
+      required: true
+  - type: textarea
+    id: upkeep
+    attributes:
+      label: How it is kept running
+      description: Who maintains it, and how it is operated, backed up and restored. (Criterion —one person can keep it running.)
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy
+      description: What data it collects, if any, and why. (Criterion —respects privacy and faith.)
+    validations:
+      required: true
+  - type: textarea
+    id: measure
+    attributes:
+      label: How you measure progress
+      description: The numbers that tell you whether it is getting better, and where someone else can check them. (Criterion —can be measured.)
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What support would help
+      description: For example servers, domains, CI minutes or design work. Be specific.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am an independent open-source builder in Uzbekistan, and this is not a Wonmor project.
+          required: true
+        - label: Everything in this application is accurate and can be checked.
+          required: true
