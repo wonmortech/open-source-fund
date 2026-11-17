@@ -2,6 +2,22 @@
 
 # Wonmor Open Source Fund (planned)
 
+A planned fund for independent open-source builders in Uzbekistan: five criteria, a draft application template and yearly reports, all public before a single application is accepted.
+
+![status: planned](https://img.shields.io/badge/status-planned%2C%20not%20open-87867f)
+![text: CC BY 4.0](https://img.shields.io/badge/text-CC%20BY%204.0-141413)
+
+**[Website](https://wonmor.io) · [Sponsorship page](https://wonmor.io/company/sponsorship/) · [Charter](https://wonmor.io/charter/) · [Draft application](.github/ISSUE_TEMPLATE/application.yml)**
+
+## At a glance
+
+- **Not open yet.** No applications are accepted and no money is promised until the first line of this README says so.
+- **Who it is for.** Independent open-source projects built in Uzbekistan, by people other than the founder.
+- **Five criteria.** For people we know, one person can keep it running, open where it can be, respects privacy and faith, measurable.
+- **Decisions with reasons.** Each decision is written down with the reason, in line with the charter.
+- **Real numbers only.** Reports list real spending, never estimates or rounded-up figures.
+- **No equity, no revenue share.**
+
 The Wonmor Open Source Fund is a planned way to support independent open-source builders in Uzbekistan, beyond the founder's own projects. This repository is where its rules, application template and reports will live once it opens.
 
 Everything below describes what is planned. Nothing here has happened yet. The [sponsorship page on wonmor.io](https://wonmor.io/company/sponsorship/) is the source of truth; if the two ever differ, the page on wonmor.io applies.
